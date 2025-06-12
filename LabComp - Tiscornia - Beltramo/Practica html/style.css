@@ -1,0 +1,66 @@
+body {
+    font-family: 'sans-serif', sans-serif;
+    min-height: 100vh;
+}
+
+
+body.fondo-imagen {
+    background: url('audi-rs-4-avant-bmw-m3-competition-m-mercedes-amg-c-63-s-e-performance-break-essai-test-comparatif-nouveaute-2024-12.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo1 {
+    background-color: rgba(255, 255, 255, 0.76);
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 12px 30px rgb(153, 153, 153);
+    text-align: center;
+    max-width: 425px;
+    width: 100%;
+    animation: fadeIn 1s ease;
+    z-index: 1;
+}
+
+.logo1 h1 {
+    color: #c72727;
+    margin-bottom: 1rem;
+}
+
+.campo {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 5px;
+    color: hsl(0, 0%, 0%);
+}
+
+input[type="text"],
+input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 10px;
+    margin: 10px 5px 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+body.fondo-imagen {
+    overflow: hidden;
+    height: 100vh;
+}
+
